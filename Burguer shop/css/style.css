@@ -1,0 +1,181 @@
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items:center;
+    background-color: #F5EBDC;
+    font-family: "Protest Strike", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    flex-flow: wrap;
+ }
+
+.main{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+.div_nav{
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center; 
+}
+ img{
+    width: 120px;
+    height: 60px;
+    margin-right: 120px;   
+}
+
+.div_register{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+*{
+    list-style-type: none;
+    text-decoration: none;  
+}
+.second {
+    width: 100%;
+    height: 7rem; ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color:#502314;
+    color: white;
+}
+
+.log_center{
+    width: 120px;
+    height: 60px;
+    margin-right: 100px;
+    display: flex;
+    right:100px ;
+    float: right
+    }
+h2{
+    position: absolute;
+    justify-content: center;
+    align-content:space-between;
+    border-radius: 25%;
+    left: 17%;
+    background-color:#D62300;
+    color: white;
+    top: 170px;
+    margin-top:45px;
+    width: 130px;
+    height: 40px; 
+}
+
+h1{
+    margin-bottom: 20rem;
+    justify-content: center;
+}
+
+.div_nav  ul li{
+color: black;
+}
+
+li a{
+    color: #502314;
+}
+
+.div_register li a{
+    color:black;
+}
+
+.div_register .value1{
+    width: 100px;
+    height: 25px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 15px;
+    background-color: #A71B00;
+    color: white;
+}
+
+.div_register .value2{
+    width: 140px;
+    height: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    border-radius: 15px;
+    background-color: #502314;
+    color: white;
+}
+.div_register a{
+    color: white;
+    margin-left: 15px;
+}
+
+.Burger_element{ 
+    position: relative;
+    display:inline-flex;
+    justify-content:center;
+    top: 150px;
+    align-content:center;
+    left: 194.5px;
+}
+
+#one img{
+    width:380px;
+    height:240px;
+    flex-direction:row;
+    justify-content:flex-start;
+    border-radius:20px;
+}
+#two img{
+    width:380px;
+    height:240px;
+    flex-direction:row;
+    justify-content:flex-start;
+    border-radius:20px;
+}
+#third img{
+    width:380px;
+    height:240px;
+    flex-direction:row;
+    justify-content:flex-start;
+    border-radius:20px;
+}
+
+footer {
+    margin-top:200px;
+    background-color: #333;
+    color: aqua;
+    text-align:left;
+    padding:20px;
+    clear: both;
+    justify-content:flex-start;
+    display:inline-flex;
+    width:100%;
+    height:310px;
+    background-color:#2B0200;
+    flex-flow:wrap;
+}
+
+ .content >.rod_element li a{
+    color:antiquewhite;
+    font-size:12px;
+    right:15px;  
+}
+#inf ul li a{
+    color:white;
+    font-size:25px;
+}
